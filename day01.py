@@ -6,4 +6,3 @@ location = input("Where did you grew up?: \n")
 pet_name = input("what is your pet name?: \n")
 
 print("your brand name may be: " + location + pet_name)
-
