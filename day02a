@@ -1,0 +1,9 @@
+# Age counter
+age = input("What is your current age? ")
+
+year = int(90) - int(age)
+days = round(365*year)
+weeks = round(52*year)
+month = round(12*year)
+
+print(f"You have {days} days, {weeks} weeks, and {month} months left. ")

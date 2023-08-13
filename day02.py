@@ -13,3 +13,5 @@ bmi = float(weight) / float(height)
 
 print(float(bmi))
 print(int(bmi))
+
+# now 
