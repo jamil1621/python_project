@@ -1,0 +1,9 @@
+fruits = ["Mango", "Apple", "Banana", "Peach", "Grape"]
+
+# fruits.append("Guava")
+fruits.extend(["Jack fruit", "Malta"])
+fruits.insert(0,"Guava")
+print(fruits)
+fruits.remove("Guava")
+
+print(fruits)

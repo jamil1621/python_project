@@ -1,0 +1,13 @@
+import random
+# Split string method
+names_string = input("Give me everybody's names, separated by a comma. ")
+names = names_string.split(", ")
+
+a = len(names)
+print(a)
+
+random_name = random.randint(0, a -1)
+print(random_name)
+
+pay = names[random_name]
+print(pay + " is gonna pay")
